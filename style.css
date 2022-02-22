@@ -1,0 +1,90 @@
+
+body{
+    background: linear-gradient(#0011ff, #b6b9e2, #041091);
+}
+
+header{
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
+    padding-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    margin: 0%;
+}
+
+.palavras{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+
+.p1{
+    color: white;
+    font-family: initial;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.p2{
+    color: white;
+    font-family: initial;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.p3{
+    color: white;
+    font-family: initial;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.título{
+    color: white;
+    font-family: initial;
+}
+
+.texto{
+    color:white;
+    font-family: initial;
+    position: center;
+    font-size: 18px;
+    width: 50vw;
+}
+
+.link{
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.Personagem{
+    position: relative;
+    height: 520px;
+    width: 850px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.Rodapé{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
