@@ -92,7 +92,7 @@ main{
 
 @media (max-width: 600px){
     .palavras{
-        padding-right: 20px;
+        padding-right: 40px;
     }
     .palavras span {
         font-size: 20px;
