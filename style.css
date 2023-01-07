@@ -13,34 +13,22 @@ header{
 }
 
 .logo{
-    height: 4vw;
-    width: 4vw;
+    height: 70px;
+    width: 70px;
     position: relative;
     margin: 0%;
 }
 
 .palavras{
     display: flex;
-    gap: 20px;
     align-items: center;
     padding-right: 100px;
     justify-content: flex-end;
+    gap: 20px;
 }
 
-.p1{
-    color: white;
-    font-family: initial;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.p2{
-    color: white;
-    font-family: initial;
-    font-size: 30px;
-    cursor: pointer;
-}
-
+.p1,
+.p2,
 .p3{
     color: white;
     font-family: initial;
@@ -50,11 +38,14 @@ header{
 
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    line-height: 20px;
 }
 
-.título{
+.titulo{
     color: white;
     font-family: initial;
 }
@@ -62,9 +53,9 @@ main{
 .texto{
     color:white;
     font-family: initial;
-    position: center;
     font-size: 18px;
     width: 50vw;
+    font-weight: lighter;
 }
 
 .link{
@@ -73,18 +64,61 @@ main{
     position: relative;
 }
 
-.Personagem{
+.personagem{
     position: relative;
     height: 520px;
     width: 850px;
+    margin-top: 20px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-}
-.Rodapé{
+.rodape{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+@media (max-width: 860px){
+    .texto{
+        width: 80vw;
+    }
+    .personagem{
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 600px){
+    .palavras{
+        padding-right: 20px;
+    }
+    .palavras span {
+        font-size: 20px;
+    }
+    .personagem{
+        width: 300px;
+        height: 200px;
+    }
+    .texto, 
+    .rodape{
+        font-size: 16px;
+    }
+    .titulo,
+    .link{
+        font-size: 20px;
+    }
+}
+@media (max-width: 378px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .palavras span{
+        gap: 10px;
+    }
 }
